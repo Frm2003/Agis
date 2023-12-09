@@ -1,7 +1,0 @@
-package br.fateczl.com.agis.model.pk;
-
-import java.io.Serializable;
-
-public class PlanejamentoPk implements Serializable {
-
-}

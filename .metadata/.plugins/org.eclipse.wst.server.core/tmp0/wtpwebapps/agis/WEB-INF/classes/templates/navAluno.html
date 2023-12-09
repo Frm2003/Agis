@@ -61,7 +61,10 @@
 			<div class="collapse navbar-collapse" id="navbarScroll">
 				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Ver disciplinas</a>
+						<form class="nav-link" th:action="@{/aluno/disciplinas}" method="post">
+							<input type="hidden" name="ra" th:value="${ra}">
+							<button type="submit" class="btn btn-link">Ver disciplinas</button>
+						</form>
 					</li>
 					<li class="nav-item">
 						<form class="nav-link" th:action="@{/aluno/historico}" method="get">

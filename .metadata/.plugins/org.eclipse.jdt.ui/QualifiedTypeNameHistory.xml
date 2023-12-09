@@ -29,8 +29,6 @@
     <fullyQualifiedTypeName name="br.fateczl.com.agis.repository.TurmaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
     <fullyQualifiedTypeName name="br.fateczl.com.agis.controller.DisciplinaController"/>
@@ -38,10 +36,13 @@
     <fullyQualifiedTypeName name="br.fateczl.com.agis.service.ProfessorService"/>
     <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
     <fullyQualifiedTypeName name="br.fateczl.com.agis.service.GenericServices"/>
-    <fullyQualifiedTypeName name="br.fateczl.com.agis.service.AlunoService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
-    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.service.TurmaService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.service.AlunoService"/>
 </qualifiedTypeNameHistroy>

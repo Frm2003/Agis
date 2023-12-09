@@ -1,8 +1,0 @@
-package br.fateczl.com.agis.model;
-
-public class Professor {
-	private Long cod;
-	private String nome;
-	private String titulacao;
-	
-}

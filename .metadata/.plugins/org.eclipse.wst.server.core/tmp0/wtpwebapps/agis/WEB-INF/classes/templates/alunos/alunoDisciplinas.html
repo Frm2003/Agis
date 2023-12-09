@@ -57,12 +57,12 @@
 				<div class="card">
 					<div class="card-body">
 						<h5 class="card-title" th:text="${turma.disciplina.nome}"></h5>
-						<p class="card-text"th:text="${turma.diaDaSemana}"></p>
+						<p class="card-text" th:text="${turma.diaDaSemana}"></p>
+						<p class="card-text">Horario: das <span th:text="${turma.horarioInicio}"></span> até <span th:text="${turma.horarioFim}"></p>
 					</div>
 					<div class="card-footer">
-						<!--
-							<a class="btn btn-primary" th:href="@{'/secretaria/aluno/vizualizar/'+${aluno.ra}}">Vizualizar</a>
-						-->	
+						<a class="btn btn-primary"
+							th:href="@{'/aluno/disciplina'+${turma.cod}}">Vizualizar</a>
 					</div>
 				</div>
 			</div>

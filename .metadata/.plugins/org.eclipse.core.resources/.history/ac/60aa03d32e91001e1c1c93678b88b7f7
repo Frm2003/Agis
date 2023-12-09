@@ -1,8 +1,0 @@
-package br.fateczl.com.agis.model;
-
-import jakarta.persistence.Table;
-
-@Table	
-public class Aluno {
-
-}

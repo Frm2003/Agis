@@ -6746,3 +6746,329 @@
 2023-12-09 11:50:45,311 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-12-09 11:50:45,316 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-12-09 11:50:45,319 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:01:17,302 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:01:17,332 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:01:17,347 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:02:16,656 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:02:16,687 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:02:16,698 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:02:19,210 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:02:19,316 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:02:19,326 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:04:21,171 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:04:21,187 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:04:21,197 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:04:39,585 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:04:39,596 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:04:39,606 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:04:50,683 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:04:50,697 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:04:50,708 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:04:57,667 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:04:57,680 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:04:57,690 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:05:11,034 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:05:11,057 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:05:11,066 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:05:19,583 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:05:19,597 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:05:19,609 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:05:32,458 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:05:32,470 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:05:32,481 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:05:49,390 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:05:49,401 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:05:49,411 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:05:51,646 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:05:51,659 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:05:51,669 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:08:30,737 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:08:30,750 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:08:30,760 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:08:33,255 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:08:33,265 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:08:33,276 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:08:42,857 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:08:42,875 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:08:42,886 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:08:48,914 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:08:48,929 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:08:48,943 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:08:54,329 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:08:54,342 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:08:54,352 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:10:05,259 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:10:05,269 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:10:05,279 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:10:16,375 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:10:16,388 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:10:16,400 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:10:41,032 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:10:41,044 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:10:41,055 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:12:36,099 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 12:12:36,105 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:12:36,110 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:13:05,830 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 12:13:05,835 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:13:05,839 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:14:02,625 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 12:14:02,632 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:14:02,636 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:15:04,292 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:15:04,303 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:15:04,314 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:15:06,412 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:15:06,423 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:15:06,432 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:15:15,563 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:15:15,573 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:15:15,584 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:15:33,152 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:15:33,162 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:15:33,172 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:15:39,306 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:15:39,317 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:15:39,327 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:17:40,030 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:17:40,039 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:17:40,049 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:17:53,347 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:17:53,357 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:17:53,366 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:18:23,417 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:18:23,465 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:18:23,480 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:19:44,612 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:19:44,626 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:19:44,636 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:20:14,447 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:20:14,457 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:20:14,467 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:21:15,049 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:21:15,059 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:21:15,069 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:21:21,830 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:21:21,847 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:21:21,865 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:21:26,884 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:21:26,896 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:21:26,909 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:21:36,466 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:21:36,478 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:21:36,489 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:21:44,744 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:21:44,755 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:21:44,765 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:26:07,016 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:26:07,027 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:26:07,042 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:26:10,898 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:26:10,912 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:26:10,923 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:27:11,817 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:27:11,827 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:27:11,836 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:28:02,773 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:28:02,784 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:28:02,793 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:28:37,239 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:28:37,253 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:28:37,263 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:29:40,764 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:29:40,774 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:29:40,783 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:29:47,730 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:29:47,739 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:29:47,749 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:29:52,629 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:29:52,639 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:29:52,649 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:02,582 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:02,593 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:02,603 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:10,456 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:10,466 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:10,475 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:17,998 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:18,009 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:18,019 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:26,142 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:26,151 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:26,160 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:29,519 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:29,531 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:29,544 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:32,382 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:32,392 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:32,402 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:49,205 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:49,216 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:49,226 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:52,670 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:52,679 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:52,689 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:30:58,637 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:30:58,647 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:30:58,658 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:31:00,758 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:31:00,896 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:31:00,907 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:31:09,399 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:31:09,409 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:31:09,419 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:31:11,527 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:31:11,536 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:31:11,545 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:31:19,309 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:31:19,319 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:31:19,328 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:31:24,210 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:31:24,222 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:31:24,232 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:31:28,483 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:31:28,494 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:31:28,504 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:34:36,243 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-09 12:36:05,951 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:36:05,977 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:36:05,990 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:36:11,808 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:36:11,821 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:36:11,833 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:36:12,938 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:36:12,951 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:36:12,962 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:36:39,069 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 12:36:39,077 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:36:39,084 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:36:54,167 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:36:54,182 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:36:54,193 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:36:58,235 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:36:58,248 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:36:58,262 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:09,457 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:09,472 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:09,484 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:14,778 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:14,805 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:14,819 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:22,562 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:22,573 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:22,585 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:24,744 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:24,755 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:24,766 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:29,983 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:29,994 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:30,005 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:39,625 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:39,641 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:39,657 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:45,845 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:45,857 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:45,869 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:37:55,017 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:37:55,034 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:37:55,048 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:38:12,757 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:38:12,768 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:38:12,780 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:38:16,087 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:38:16,102 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:38:16,113 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:38:22,452 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:38:22,465 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:38:22,476 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:38:29,053 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:38:29,067 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:38:29,080 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 12:38:33,388 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 12:38:33,399 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 12:38:33,412 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 13:59:54,983 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 13:59:54,993 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 13:59:55,006 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 13:59:56,088 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 13:59:56,095 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 13:59:56,103 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:00:08,652 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:00:08,660 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:00:08,667 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:00:58,268 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:00:58,274 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:00:58,280 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:01:01,535 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:01:01,542 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:01:01,548 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:01:22,153 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:01:22,158 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:01:22,164 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:01:27,074 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:01:27,080 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:01:27,086 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:01:34,876 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:01:34,881 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:01:34,887 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:04:38,702 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:04:38,738 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 14:04:38,760 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:04:54,005 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:04:54,011 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:04:54,016 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:10:52,316 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:10:52,322 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:10:52,329 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:10:54,475 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:10:54,482 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:10:54,488 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:11:02,434 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:11:02,440 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:11:02,447 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:11:11,876 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:11:11,882 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:11:11,886 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 14:12:06,542 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 14:12:06,548 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 14:12:06,552 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:41:07,185 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-09 17:41:13,472 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:41:13,525 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 23 resources from src\main\resources to target\classes
+2023-12-09 17:41:13,556 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:41:36,547 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:41:36,555 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:41:36,561 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:41:43,684 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:41:43,691 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:41:43,699 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:41:54,800 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:41:54,807 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:41:54,815 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:42:01,049 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:42:01,056 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:42:01,063 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:42:35,688 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:42:35,695 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:42:35,701 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:44:24,955 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:44:24,962 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:44:24,967 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:45:11,942 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:45:11,948 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:45:11,953 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:46:18,762 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:46:18,768 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:46:18,774 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:46:25,787 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:46:25,792 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:46:25,797 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:46:27,912 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:46:27,917 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:46:27,921 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:46:42,762 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:46:42,768 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:46:42,773 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
+2023-12-09 17:46:46,990 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-09 17:46:46,996 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-09 17:46:47,001 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Felip\OneDrive\Documentos\AGIS-siga2SohQbomDoContrario\codigo\agis\src\test\resources
