@@ -1,0 +1,28 @@
+package br.fateczl.com.agis.model;
+
+import java.time.LocalDate;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+
+public class Solicitacoes {
+	@Id
+	@ManyToOne(cascade = CascadeType.ALL, targetEntity = Aluno.class, fetch = FetchType.LAZY)
+	@JoinColumn(name = "raAluno")
+	private Aluno aluno;
+	
+	@Id
+	@ManyToOne(cascade = CascadeType.ALL, targetEntity = Professor.class, fetch = FetchType.LAZY)
+	@JoinColumn(name = "codProfessor")
+	private Professor professor;
+	
+	private String solicitacao;
+	
+	@Id
+	@Column(columnDefinition = "DATE")
+	private LocalDate data;
+}

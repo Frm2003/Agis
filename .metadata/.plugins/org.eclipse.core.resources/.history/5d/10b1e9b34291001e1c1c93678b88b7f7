@@ -1,0 +1,21 @@
+package br.fateczl.com.agis.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.fateczl.com.agis.model.Curso;
+import br.fateczl.com.agis.repository.CursoRepository;
+
+@Service
+public class CursoService {
+	@Autowired
+	private CursoRepository crep;
+	
+	public void inserir(Curso c) {
+		crep.save(c);
+	}
+	
+	public void atualizar(Curso c) {
+		
+	}	
+}

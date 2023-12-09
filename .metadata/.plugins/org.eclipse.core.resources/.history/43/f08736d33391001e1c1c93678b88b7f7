@@ -1,0 +1,10 @@
+package br.fateczl.com.agis.model.pk;
+
+import jakarta.persistence.Embeddable;
+import lombok.Data;
+
+@Data
+@Embeddable
+public class MatriculaPk {
+
+}

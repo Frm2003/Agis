@@ -1,0 +1,36 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import br.fateczl.com.agis.model.Aluno;
+import br.fateczl.com.agis.service.AlunoService;
+import jakarta.validation.Valid;
+
+@Controller
+public class AlunoLoginController {
+	@Autowired
+	private AlunoService aserv;	
+	
+	@GetMapping("/aluno/login")
+	public String get(ModelMap model) {
+		model.addAttribute("aluno", new Aluno());
+		return "alunos/alunoLogin";
+	}
+	
+	@PostMapping("/aluno/logar/{ra}")
+	public String post(@PathVariable String ra, RedirectAttributes model) {
+		for (Aluno aluno : aserv.listarTudo()) {
+			if (aluno.equals(a.getRa())) {
+				model.addFlashAttribute("ra", aluno.getRa());
+				return "redirect:/aluno/disciplinas";	
+			}
+		}
+		return null;
+	}
+}

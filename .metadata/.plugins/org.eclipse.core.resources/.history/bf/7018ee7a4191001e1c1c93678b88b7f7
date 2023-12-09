@@ -1,0 +1,9 @@
+package br.fateczl.com.agis.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.fateczl.com.agis.model.Curso;
+
+public interface DisciplinaRepository extends JpaRepository<Curso, Long> {
+
+}

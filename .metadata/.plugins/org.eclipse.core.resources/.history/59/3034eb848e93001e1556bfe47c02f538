@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <nav>
+        <div th:replace="~{nav :: nav}"></div>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">Formulário</h2>
+                <form role="form" th:action="@{/disciplina/inserir}" method="post" th:object="${disciplina}">
+                    <div class="mb-3">
+                        <label class="form-label">Nome</label>
+                        <input type="text" class="form-control" th:field="*{disciplina.nome}">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Quantidade de Aulas</label>
+                        <input type="text" class="form-control" th:field="*{disciplina.qtdAulas}">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Semestre</label>
+                        <input type="text" class="form-control" th:field="*{semestre}">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Curso</label>
+                        <select class="form-control" th:field="*{curso}">
+                            <option th:each="curso : ${cursos}" th:value="${curso}" th:text="${curso.nome}"></option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <button type="submit" class="btn btn-primary">Criar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

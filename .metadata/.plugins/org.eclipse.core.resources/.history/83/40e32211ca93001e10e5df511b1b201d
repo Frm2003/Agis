@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário do Professor</title>
+    <!-- Adicione links para Bootstrap ou outros estilos, se necessário -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center mb-4">Formulário do Professor</h2>
+            <form th:action="@{/professor/salvar}" method="post" th:object="${professor}">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" th:field="*{nome}" required>
+                </div>
+                <div class="form-group">
+                    <label for="titulacao">Titulação:</label>
+                    <input type="text" class="form-control" id="titulacao" name="titulacao" th:field="*{titulacao}" required>
+                </div>
+                <div class="form-group">
+                    <label for="emailPessoal">Email Pessoal:</label>
+                    <input type="email" class="form-control" id="emailPessoal" name="emailPessoal" th:field="${emailPessoal}" required>
+                </div>
+                <div class="form-group">
+                    <label for="emailCorp">Email Corporativo:</label>
+                    <input type="email" class="form-control" id="emailCorp" name="emailCorp" th:field="${emailCorp}" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

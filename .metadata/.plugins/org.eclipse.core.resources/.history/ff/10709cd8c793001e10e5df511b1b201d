@@ -1,0 +1,55 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import br.fateczl.com.agis.model.Curso;
+import br.fateczl.com.agis.model.Professor;
+import br.fateczl.com.agis.service.ProfessorService;
+import jakarta.validation.Valid;
+
+@Controller
+public class CrudProfessorController {
+	@Autowired
+	private ProfessorService pserv;
+	
+	@GetMapping("/professor")
+	public String get(ModelMap model) {
+		model.addAttribute("professor", new Professor());
+		return "crudProfessor/professorForm";
+	}
+	
+	@GetMapping("/professor/lista")
+	public String listar(ModelMap model) throws Exception {
+		model.addAttribute("cursos", pserv.listarTudo());
+		return "crudProfessor/professorTable";
+	}
+	
+	@GetMapping("/professor/buscar/{cod}")
+	public String buscar(@PathVariable("cod") Long cod, ModelMap model) throws Exception {
+		model.addAttribute("professor", pserv.buscar(cod));
+		return "crudCurso/professorEdit";
+	}
+	
+	@GetMapping("/curso/deletar/{cod}")
+	public String deletar(@PathVariable("cod") Long cod) throws Exception {
+		pserv.remover(cod);
+		return "redirect:/curso/lista";
+	}
+	
+	@PostMapping("/curso/inserir")
+	public String Inserir(@Valid Professor p) {
+		pserv.inserir(p);
+		return "redirect:/curso/lista";
+	}
+	
+	@PostMapping("/curso/atualizar/{cod}")
+	public String atualizar(@Valid Professor p) throws Exception {
+		pserv.atualizar(p);
+		return "redirect:/curso/lista";
+	}
+}

@@ -1,0 +1,18 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import br.fateczl.com.agis.model.Curso;
+import br.fateczl.com.agis.model.Professor;
+import br.fateczl.com.agis.service.ProfessorService;
+import jakarta.validation.Valid;
+
+@Controller
+public class CrudTurmaController {
+	
+}

@@ -1,0 +1,5 @@
+package br.fateczl.com.agis.controller;
+
+public class CrudProfessor {
+
+}

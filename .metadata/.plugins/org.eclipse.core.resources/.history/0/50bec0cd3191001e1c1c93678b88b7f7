@@ -1,0 +1,5 @@
+package br.fateczl.com.agis.model;
+
+public class Chamada {
+
+}

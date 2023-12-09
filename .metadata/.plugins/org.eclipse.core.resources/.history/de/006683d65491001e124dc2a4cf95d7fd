@@ -1,0 +1,9 @@
+package br.fateczl.com.agis.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.fateczl.com.agis.model.Aluno;
+
+public interface ProfessorRepository extends JpaRepository<Aluno, String> {
+
+}

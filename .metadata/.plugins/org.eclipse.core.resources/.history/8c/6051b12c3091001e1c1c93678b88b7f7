@@ -1,0 +1,39 @@
+package br.fateczl.com.agis.model;
+
+import java.math.BigDecimal;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data
+@Entity
+@Table
+@Inheritance(strategy = InheritanceType.JOINED)
+public class Curso {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "cod", nullable = false)
+	private Long cod;
+	
+	@Column(name = "nome", nullable = false, length = 100)
+	private String nome;
+	
+	@Column(name = "cargaHoraria", nullable = false)
+	private int cargaHoraria;
+	
+	@Column(name = "sigla", nullable = false, length = 100)
+	private String sigla;
+	
+	@Column(name = "enade", precision = 10, scale = 2)
+	private BigDecimal enade;
+	
+	@Column(name = "turno", nullable = false, length = 20)
+	private String turno;
+}

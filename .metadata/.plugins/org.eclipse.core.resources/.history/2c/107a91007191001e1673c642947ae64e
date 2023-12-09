@@ -1,0 +1,29 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class WebConfig {
+	@Bean
+    @Description("Thymeleaf template resolver serving HTML 5")
+    public ClassLoaderTemplateResolver templateResolver() {
+        ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
+        templateResolver.setPrefix("templates/");
+        templateResolver.setSuffix(".html");
+        templateResolver.setTemplateMode("HTML");
+        templateResolver.setCharacterEncoding("UTF-8");
+        templateResolver.setCacheable(false); // Defina como true em ambientes de produção
+
+        return templateResolver;
+    }
+
+    @Bean
+    @Description("Thymeleaf template engine with Spring integration")
+    public SpringTemplateEngine templateEngine() {
+        SpringTemplateEngine templateEngine = new SpringTemplateEngine();
+        templateEngine.setTemplateResolver(templateResolver());
+        // Outras configurações do mecanismo podem ser adicionadas aqui
+
+        return templateEngine;
+    }
+}

@@ -1,0 +1,5 @@
+package br.fateczl.com.agis.repository;
+
+public interface CursoRepository extends {
+
+}

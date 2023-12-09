@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.InheritanceType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="java.sql.Time"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Temporal"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.model.pk.MatriculaPk"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.model.pk.ChamadaPk"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.model.pk.PlanejamentoPk"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.IdClass"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.model.Solicitacoes"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.model.pk.SolicitacoesPk"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumns"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="jakarta.validation.Valid"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.repository.DisciplinaRepository"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.repository.AlunoRepository"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.repository.ProfessorRepository"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.repository.TurmaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.controller.DisciplinaController"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.service.DisciplinaService"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.service.ProfessorService"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.service.GenericServices"/>
+    <fullyQualifiedTypeName name="br.fateczl.com.agis.service.AlunoService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,21 @@
+package br.fateczl.com.agis.model.pk;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+@Embeddable
+public class GradeCurricularPk implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private int ano;
+	
+	@Id
+	@Column(nullable = false)
+	private int semestre;
+}
