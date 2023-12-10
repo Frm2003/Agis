@@ -19,7 +19,7 @@ public class AlunoRematriculaController {
 	public String get(@RequestParam Map<String, String> param, ModelMap model) {
 		model.addAttribute("ra", param.get("ra"));
 		model.addAttribute("turmas", tserv.listaTurmaNaoMatriculadas(param.get("ra")));
-		return "alunos/alunoRematriula";
+		return "alunos/alunoRematricula";
 	}
 	
 }

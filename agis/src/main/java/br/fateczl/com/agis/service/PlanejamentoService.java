@@ -37,19 +37,6 @@ public class PlanejamentoService {
       }
    }
 
-   public Planejamento buscar(Long cod) throws Exception {
-      Optional<Planejamento> optional = prep.findById(cod);
-      return optional.get();
-   }
-
-   public void remover(Long cod) throws Exception {
-      Planejamento p = buscar(cod);
-      p.setProfessor(null);
-      p.setDisciplina(null);
-      atualizar(p);
-      prep.delete(p);
-   }
-
    public List<Planejamento> listarTudo() {
       return prep.findAll();
    }

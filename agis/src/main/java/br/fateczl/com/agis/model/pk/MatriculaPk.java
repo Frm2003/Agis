@@ -7,9 +7,11 @@ import br.fateczl.com.agis.model.Turma;
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Embeddable
 public class MatriculaPk implements Serializable {
 	private static final long serialVersionUID = 1L;

@@ -43,6 +43,25 @@
 			border-color: #0056b3;
 			/* Cor da borda do botão primário ao passar o mouse */
 		}
+
+		@media screen and (min-width: 768px) {
+			.cartao {
+				float: left;
+				margin-left: .5%;
+				margin-right: .5%;
+				width: 49%;
+			}
+		}
+
+		@media screen and (min-width: 1280px) {
+			.cartao {
+				float: left;
+				margin-left: .5%;
+				margin-right: .5%;
+				margin-bottom: 2%;
+				width: 24%;
+			}
+		}
 	</style>
 </head>
 
@@ -50,22 +69,31 @@
 	<nav>
 		<div th:replace="~{navAluno :: navAluno}"></div>
 	</nav>
-	<input type="hidden" name="ra" th:value="${ra}">
 	<div class="container mt-5">
-		<div class="row justify-content-center">
-			<div class="card-deck" th:each="turma : ${turmas}">
-				<div class="card">
+		<div class="row">
+
+			<form th:each="t : ${turmas}">
+				<input type="hidden" name = "ra" th:value="${ra}">
+				<input type="hidden" name = "codTurma" th:value="${t.cod}">
+				<div class="cartao card text-bg-dark mb-3">
 					<div class="card-body">
-						<h5 class="card-title" th:text="${turma.disciplina.nome}"></h5>
-						<p class="card-text" th:text="${turma.diaDaSemana}"></p>
-						<p class="card-text">Horario: das <span th:text="${turma.horarioInicio}"></span> até <span th:text="${turma.horarioFim}"></p>
-					</div>
-					<div class="card-footer">
-						<a class="btn btn-primary"
-							th:href="@{'/aluno/disciplina'+${turma.cod}}">Vizualizar</a>
+						<h5 class="card-title" th:text="${t.disciplina.nome}"></h5>
+						<p class="card-text d-block">
+							<div>
+								Dia da semana: <span th:text="${t.diaDaSemana}"></span>
+							</div>
+							<div>
+								Horario: <span th:text="${t.horarioInicio}"></span> até <span th:text="${t.horarioFim}"></span>
+							</div>
+							<div>
+								Professor: <span th:text="${t.professor.nome}"></span>
+							</div>
+						</p>
+						<button type="submit" class="btn btn-primary">Vizualizar</button>
 					</div>
 				</div>
-			</div>
+			</form>
+
 		</div>
 	</div>
 </body>

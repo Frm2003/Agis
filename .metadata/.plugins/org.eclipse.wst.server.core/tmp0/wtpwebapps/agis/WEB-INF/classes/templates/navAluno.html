@@ -50,8 +50,8 @@
 <body>
 	<nav th:fragment="navAluno" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">
-				<img th:src="@{imgs/logo2.png}" width="30" height="30" class="d-inline-block">
+			<a class="navbar-brand" th:href="@{/}">
+				<img th:src=" @{classpath:/imgs/logo2.png}" width="30" height="30" class="d-inline-block">
 				Agis
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -61,21 +61,21 @@
 			<div class="collapse navbar-collapse" id="navbarScroll">
 				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
 					<li class="nav-item">
-						<form class="nav-link" th:action="@{/aluno/disciplinas}" method="post">
-							<input type="hidden" name="ra" th:value="${ra}">
-							<button type="submit" class="btn btn-link">Ver disciplinas</button>
+						<form role="form" th:action="@{/aluno/disciplinas}" method="post">
+							<input type="hidden" name = "ra" th:value="${ra}">
+							<button class="btn btn-link">Ver disciplinas</button>
 						</form>
 					</li>
 					<li class="nav-item">
-						<form class="nav-link" th:action="@{/aluno/historico}" method="get">
-							<input type="hidden" name="ra" th:value="${ra}">
-							<button type="submit" class="btn btn-link">Ver histórico</button>
+						<form role="form" th:action="@{/aluno/historico}" method="get">
+							<input type="hidden" name = "ra" th:value="${ra}">
+							<button class="btn btn-link">Ver historico</button>
 						</form>
 					</li>
 					<li class="nav-item">
-						<form class="nav-link" th:action="@{/aluno/rematriculas}" method="get">
-							<input type="hidden" name="ra" th:value="${ra}">
-							<button type="submit" class="btn btn-link">Matricular</button>
+						<form role="form" th:action="@{/aluno/rematriculas}" method="get">
+							<input type="hidden" name = "ra" th:value="${ra}">
+							<button class="btn btn-link">Ver turmas disponíveis</button>
 						</form>
 					</li>
 				</ul>
