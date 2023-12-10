@@ -1,6 +1,0 @@
-package br.fateczl.com.agis.controller;
-
-@Controller
-public class IndexController {
-
-}

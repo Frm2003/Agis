@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Page Title</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+   <script src='main.js'></script>
+   <style>
+      body {
+         background-color: #343a40;
+         /* Cor de fundo escura */
+         color: #ffffff;
+         /* Cor do texto */
+      }
+
+      .container {
+         background-color: #454d55;
+         /* Cor de fundo do container */
+         padding: 20px;
+         border-radius: 8px;
+         /* Bordas arredondadas para o container */
+         margin-top: 50px;
+         /* Margem superior para o container */
+      }
+
+      .btn-primary {
+         background-color: #007bff;
+         /* Cor de fundo do botão primário */
+         border-color: #007bff;
+         /* Cor da borda do botão primário */
+      }
+
+      .btn-primary:hover {
+         background-color: #0056b3;
+         /* Cor de fundo do botão primário ao passar o mouse */
+         border-color: #0056b3;
+         /* Cor da borda do botão primário ao passar o mouse */
+      }
+   </style>
+</head>
+
+<body>
+   <nav>
+      <div th:replace="~{navProfessor :: navProfessor}"></div>
+   </nav>
+   <div class="container mt-5">
+      <div class="row justify-content-center">
+         <div class="col-md-6">
+            <h2 class="text-center mb-4">Editar Notas</h2>
+
+            <form th:action="@{/professores/notas/atualizar/{cod} (cod=${matricula.id})}" method="post"
+               th:object="${matricula}">
+
+               <div class="form-group">
+                  <label class="form-label">Aluno</label>
+                  <input type="text" class="form-control" name="aluno" th:value="${matricula.aluno.nome}" readonly />
+               </div>
+
+               <div class="form-group">
+                  <label class="form-label">N1</label>
+                  <input type="number" class="form-control" name="n1" th:value="${matricula.n1}" required step="0.1"
+                     min="0" max="10">
+               </div>
+
+               <div class="form-group">
+                  <label class="form-label">N2</label>
+                  <input type="number" class="form-control" name="n2" th:value="${matricula.n2}" required step="0.1"
+                     min="0" max="10">
+               </div>
+
+               <div class="form-group">
+                  <label class="form-label">N3</label>
+                  <input type="number" class="form-control" name="n3" th:value="${matricula.n3}" required step="0.1"
+                     min="0" max="10">
+               </div>
+
+               <div class="d-flex justify-content-around">
+                  <button type="submit" class="btn btn-primary">Inserir</button>
+               </div>
+            </form>
+
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>

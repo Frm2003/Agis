@@ -20,8 +20,7 @@ public class MatriculaService {
    }
 
    public void atualizar(Matricula m) throws Exception {
-      Optional<Matricula> optional = mrep.findById(
-            new MatriculaPk(m.getAluno(), m.getTurma(), m.getAno(), m.getSemestre()));
+      Optional<Matricula> optional = mrep.findById(new MatriculaPk(m.getAluno(), m.getTurma(), m.getAno(), m.getSemestre()));
 
       if (optional.isPresent()) {
          Matricula mNew = optional.get();
@@ -41,21 +40,12 @@ public class MatriculaService {
       }
    }
 
-   public Matricula buscar(Long cod) throws Exception {
-      Optional<Matricula> optional = mrep.findById(cod);
-      return optional.get();
-   }
-
-   public void remover(Long cod) throws Exception {
-      Matricula m = buscar(cod);
-      m.setAluno(null);
-      m.setTurma(null);
-      atualizar(m);
-      mrep.delete(m);
-   }
-
    public List<Matricula> listarTudo() {
       return mrep.findAll();
+   }
+   
+   public List<Matricula> listarMatriculasPorRa(String ra) {
+      return mrep.listarMatriculasPorRa(ra);
    }
 
 }

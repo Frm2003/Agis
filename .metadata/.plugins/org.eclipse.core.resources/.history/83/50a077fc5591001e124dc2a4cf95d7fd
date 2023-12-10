@@ -1,6 +1,0 @@
-package br.fateczl.com.agis.service;
-
-@Service
-public class ProfessorService {
-
-}
