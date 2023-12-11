@@ -1,0 +1,11 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class SecretariaGradeCurricularController {
+	
+	public String get() {
+		return "";
+	}
+}

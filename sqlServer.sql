@@ -9,10 +9,13 @@ use agis
 select * from aluno
 select * from matricula
 select * from turma
+select * from GradeCurricular
 
 select t.* from turma t inner join matricula m on t.cod = m.codTurma where m.raAluno = '202323804'
 
 select t.* from turma t left join matricula m on t.cod = m.codTurma and m.raAluno = '202323804'where m.raAluno is null
+
+select t.* from turma t inner join Disciplina d on t.codDisciplina = d.cod inner join Curso c on c.cod = d.codCurso 
 
 --PROCEDURES
 --gera dados

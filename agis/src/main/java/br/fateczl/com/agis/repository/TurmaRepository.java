@@ -16,7 +16,10 @@ public interface TurmaRepository extends JpaRepository<Turma, Long>{
 	List<Turma> listarTurmasDoAluno(@Param("ra") String ra);
 	
 	@Query(value = "select t.* from turma t left join matricula m on t.cod = m.codTurma and m.raAluno = ? where m.raAluno is null", nativeQuery = true)
-	List<Turma> listaTurmaNaoMatriculadas(@Param("ra") String ra);
+	List<Turma> listarTurmaNaoMatriculadas(@Param("ra") String ra);
+
+	@Query(value = "select t.* from turma t inner join Disciplina d on t.codDisciplina = d.cod inner join Curso c on c.cod = d.codCurso where c.cod = 1", nativeQuery = true)
+	List<Turma> listarTurmasDoCurso(Long cod);
 	
 }
 

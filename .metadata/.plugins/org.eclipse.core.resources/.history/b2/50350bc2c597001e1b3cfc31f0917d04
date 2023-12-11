@@ -1,0 +1,26 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import br.fateczl.com.agis.service.CursoService;
+
+@Controller
+public class SecretariaGradeCurricularController {
+	@Autowired
+	private CursoService cserv;
+	
+	@GetMapping("secretaria/montarGrade")
+	public String get(ModelMap model) {
+		model.addAttribute("cursos", cserv.listarTudo());
+		return "secretaria/montarGrade";
+	}
+	
+	@PostMapping("")
+	public String post(ModelMap model) {
+		model.addAttribute("cursos", cserv.listarTudo());
+		return "secretaria/montarGrade";
+	}
+}

@@ -34,10 +34,14 @@ public class Turma {
 	private String diaDaSemana;
 	
 	@ManyToOne(cascade = CascadeType.ALL, targetEntity = Disciplina.class, fetch = FetchType.LAZY)
-	@JoinColumn(name = "codDisciplina")
+	@JoinColumn(name = "codDisciplina", nullable = false)
 	private Disciplina disciplina;
 	
 	@ManyToOne(cascade = CascadeType.ALL, targetEntity = Professor.class, fetch = FetchType.LAZY)
-	@JoinColumn(name = "codProfessor")
+	@JoinColumn(name = "codProfessor", nullable = false)
 	private Professor professor;
+	
+	@ManyToOne(cascade = CascadeType.ALL, targetEntity = GradeCurricular.class, fetch = FetchType.LAZY)
+	@JoinColumn(name = "codGrade", nullable = true)
+	private GradeCurricular grade;
 }
