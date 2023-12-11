@@ -24,21 +24,21 @@ public class Turma {
 	@Column(nullable = false)
 	private Long cod;
 	
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String horarioInicio;
 	
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String horarioFim;
 	
-	@Column(nullable = false, length = 15)
+	@Column(nullable = true, length = 15)
 	private String diaDaSemana;
 	
 	@ManyToOne(cascade = CascadeType.ALL, targetEntity = Disciplina.class, fetch = FetchType.LAZY)
-	@JoinColumn(name = "codDisciplina", nullable = false)
+	@JoinColumn(name = "codDisciplina", nullable = true)
 	private Disciplina disciplina;
 	
 	@ManyToOne(cascade = CascadeType.ALL, targetEntity = Professor.class, fetch = FetchType.LAZY)
-	@JoinColumn(name = "codProfessor", nullable = false)
+	@JoinColumn(name = "codProfessor", nullable = true)
 	private Professor professor;
 	
 	@ManyToOne(cascade = CascadeType.ALL, targetEntity = GradeCurricular.class, fetch = FetchType.LAZY)

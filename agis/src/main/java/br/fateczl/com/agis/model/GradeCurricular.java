@@ -25,10 +25,10 @@ public class GradeCurricular {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long cod;
 	
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private int ano;
 
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private int semestre;
 	
 	@ManyToOne(cascade = CascadeType.ALL, targetEntity = Curso.class, fetch = FetchType.LAZY)

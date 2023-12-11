@@ -19,6 +19,14 @@ select t.* from turma t inner join Disciplina d on t.codDisciplina = d.cod inner
 
 --PROCEDURES
 --gera dados
+create procedure getSemestre(@saida as int output)
+as
+	if (MONTH(getdate()) > 6) begin
+		set @saida = 2
+	end else begin
+		set @saida = 1
+	end
+go
 create procedure geraRa(@ra as varchar(9) output)
 as
 	declare @anoAtual as int = year(getdate())
