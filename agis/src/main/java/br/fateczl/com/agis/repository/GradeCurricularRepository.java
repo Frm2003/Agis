@@ -11,4 +11,5 @@ public interface GradeCurricularRepository extends JpaRepository<GradeCurricular
 	
 	@Procedure(name = "GradeCurricular.getSemetre")
 	int getSemestre();
+
 }

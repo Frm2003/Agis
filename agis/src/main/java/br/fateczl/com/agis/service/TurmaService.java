@@ -47,6 +47,10 @@ public class TurmaService {
 		trep.delete(t);
 	}
 	
+	public Long contador() {
+		return trep.count();
+	}
+	
 	public List<Turma> listarTudo() {
 		return trep.findAll();
 	}
@@ -61,6 +65,9 @@ public class TurmaService {
 	
 	public List<Turma> listarTurmasDoCurso(Long cod) {
 		return trep.listarTurmasDoCurso(cod);
+	}
+	public List<Turma> listarTurmasComNull() {
+		return trep.listarTurmasComNull();
 	}
 	
 }

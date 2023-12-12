@@ -13,6 +13,10 @@ public class GradeCurricularService {
 	@Autowired
 	private GradeCurricularRepository gcrep;
 	
+	public void inserir(GradeCurricular g) {
+		gcrep.save(g);
+	}
+	
 	public List<GradeCurricular> listarTudo() {
 		return gcrep.findAll();
 	}
