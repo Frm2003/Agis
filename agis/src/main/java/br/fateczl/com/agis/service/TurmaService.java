@@ -63,9 +63,10 @@ public class TurmaService {
 		return trep.listarTurmaNaoMatriculadas(ra);
 	}
 	
-	public List<Turma> listarTurmasDoCurso(Long cod) {
-		return trep.listarTurmasDoCurso(cod);
+	public List<Turma> listarTurmasDaGrade(Long cod) {
+		return trep.listarTurmasDaGrade(cod);
 	}
+	
 	public List<Turma> listarTurmasComNull() {
 		return trep.listarTurmasComNull();
 	}

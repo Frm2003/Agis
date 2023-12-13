@@ -16,6 +16,9 @@ select * from turma
 select * from turma where codDisciplina is null
 select t.* from turma t inner join matricula m on t.cod = m.codTurma where m.raAluno = '202323804'
 select t.* from turma t left join matricula m on t.cod = m.codTurma and m.raAluno = '202323804'where m.raAluno is null
+select t.* from turma t inner join GradeCurricular gc on t.codGrade = gc.cod where gc.cod = 2
+
+--TAVEZ USAR
 select t.* from turma t inner join Disciplina d on t.codDisciplina = d.cod inner join Curso c on c.cod = d.codCurso where c.cod = 1
 
 --PROCEDURES
@@ -149,3 +152,11 @@ end
 
 enable trigger matriculaSemestreUm on aluno
 disable trigger matriculaSemestreUm on aluno
+
+create trigger deletaTurmaNull
+on turma
+after update
+as
+begin
+    delete turma where codGrade is null
+end

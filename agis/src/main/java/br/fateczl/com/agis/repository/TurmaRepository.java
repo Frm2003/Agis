@@ -18,8 +18,8 @@ public interface TurmaRepository extends JpaRepository<Turma, Long>{
 	@Query(value = "select t.* from turma t left join matricula m on t.cod = m.codTurma and m.raAluno = ? where m.raAluno is null", nativeQuery = true)
 	List<Turma> listarTurmaNaoMatriculadas(@Param("ra") String ra);
 
-	@Query(value = "select t.* from turma t inner join Disciplina d on t.codDisciplina = d.cod inner join Curso c on c.cod = d.codCurso where c.cod = 1", nativeQuery = true)
-	List<Turma> listarTurmasDoCurso(Long cod);
+	@Query(value = "select t.* from turma t inner join GradeCurricular gc on t.codGrade = gc.cod where gc.cod = ?", nativeQuery = true)
+	List<Turma> listarTurmasDaGrade(Long cod);
 	
 	@Query(value = "select * from turma where codDisciplina is null", nativeQuery = true)
 	List<Turma> listarTurmasComNull();

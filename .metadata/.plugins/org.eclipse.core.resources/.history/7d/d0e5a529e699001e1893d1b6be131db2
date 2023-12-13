@@ -1,0 +1,14 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class SecretariaGradeCurricularEditarController {
+	
+	@GetMapping("secretaria/grade/editar/{cod}")
+	public String getGrde() {
+		
+		return "secretaria/crudGrade/vizualizaGrade";
+	}
+}

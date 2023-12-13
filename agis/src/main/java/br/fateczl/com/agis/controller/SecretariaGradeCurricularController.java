@@ -62,7 +62,6 @@ public class SecretariaGradeCurricularController {
 			e.printStackTrace();
 		}
 		
-		model.addAttribute("cursos", cserv.listarTudo());
 		model.addAttribute("turmas", tserv.listarTurmasComNull());
 		model.addAttribute("disciplinas", dserv.listarTudo());
 		model.addAttribute("professores", pserv.listarTudo());
@@ -74,6 +73,7 @@ public class SecretariaGradeCurricularController {
 	public String postAddTurma(@RequestParam Map<String, String> param, RedirectAttributes model) {
 		Calendar calendar = Calendar.getInstance();
 		Long cod = Long.parseLong(param.get("codCurso"));
+		
 		try {
 			Curso c = cserv.buscar(cod);
 			
@@ -89,7 +89,6 @@ public class SecretariaGradeCurricularController {
 		
 		inserirTurmaNull();
 		
-		model.addFlashAttribute("cursos", cserv.listarTudo());
 		model.addFlashAttribute("turmas", tserv.listarTurmasComNull());
 		model.addFlashAttribute("disciplinas", dserv.listarTudo());
 		model.addFlashAttribute("professores", pserv.listarTudo());
