@@ -38,13 +38,13 @@ public class SecretariaGradeCurricularController {
 	@Autowired
 	private TurmaService tserv;
 	
-	@GetMapping("secretaria/montarGrade")
+	@GetMapping("secretaria/grade/montar")
 	public String get(ModelMap model) {
 		model.addAttribute("cursos", cserv.listarTudo());
 		return "secretaria/crudGrade/montarGrade";
 	}
 	
-	@PostMapping("secretaria/montarGrade")
+	@PostMapping("secretaria/grade/montar")
 	public String post(@RequestParam Map<String, String> param, ModelMap model) {
 		Long codCurso = Long.parseLong(param.get("codCurso"));
 		Calendar calendar = Calendar.getInstance();
@@ -94,7 +94,7 @@ public class SecretariaGradeCurricularController {
 		model.addFlashAttribute("disciplinas", dserv.listarTudo());
 		model.addFlashAttribute("professores", pserv.listarTudo());
 		
-		return "redirect:/secretaria/montarGrade";
+		return "redirect:/secretaria/grade/montar";
 	}
 	
 	@PostMapping("/secretaria/montarGrade/addGrade")
@@ -126,7 +126,7 @@ public class SecretariaGradeCurricularController {
 		
 		model.addFlashAttribute("cursos", cserv.listarTudo());
 		
-		return "redirect:/secretaria/montarGrade";
+		return "redirect:/secretaria/grade/montar";
 	}
 	
 	private void inserirTurmaNull() {
