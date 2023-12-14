@@ -45,11 +45,6 @@
 			/* Cor da borda do botão primário ao passar o mouse */
 		}
 
-		form {
-			border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-			padding-bottom: 0.5em;
-		}
-
 		form h3 {
 			padding: 0.5em 0em 0.5em 0em;
 		}
@@ -63,84 +58,49 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-9">
-
 				<div th:if="${turmas != null}">
-					<h3 class="text-center">Dados da grade</h3>
-					<div class="d-flex justify-content-evenly">
-						<input type="hidden" name="codCurso" th:value="${codCurso}">
-						<input type="hidden" name="ano" th:value="${ano}">
-						<input type="hidden" name="semestre" th:value="${semestre}">
-
-						<p th:text="${nomeCurso}"></p>
-						<p th:text="${ano}"></p>
-						<p th:text="${semestre}"></p>
-					</div>
+					<h3 class="text-center d-flex justify-content-center">
+						<span style="padding: 0.5em;">Dados da grade: </span>
+						<span style="padding: 0.5em;" th:text="${nomeCurso}"></span>
+						<span style="padding: 0.5em;" th:text="${ano}"></span>
+						<span style="padding: 0.5em;" th:text="${semestre}"></span>
+					</h3>
 				</div>
-
-				<form role="form" th:action="@{/secretaria/montarGrade/addGrade}" method="post">
-					<input type="hidden" name="codCurso" th:value="${codCurso}">
-					<input type="hidden" name="ano" th:value="${ano}">
-					<input type="hidden" name="semestre" th:value="${semestre}">
-					<div th:if="${turmas != null}">
-						<table class="table table-dark">
-							<thead>
-								<tr>
-									<th scope="col">Cod</th>
-									<th scope="col">Horário de Início</th>
-									<th scope="col">Horário de Fim</th>
-									<th scope="col">Dia da Semana</th>
-									<th scope="col">Disciplina</th>
-									<th scope="col">Professor</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr th:each="turma : ${turmas}">
-									<input type="hidden" name="codTurma" th:value="${turma.cod}">
-									<td th:text="${turma.cod}"></td>
-									<td>
-										<select class="form-control" name="horarioInicio">
-											<option>14:50</option>
-											<option>13:00</option>
-											<option>16:20</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="horarioFim">
-											<option>14:50</option>
-											<option>18:20</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="diaDaSemana">
-											<option>Segunda</option>
-											<option>Terça</option>
-											<option>Quarta</option>
-											<option>Quinta</option>
-											<option>Sexta</option>
-											<option>Sábado</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="codDisciplina">
-											<option th:each="d : ${disciplinas}" th:value="${d.cod}">
-												<span th:text="${d.nome}"></span>
-											</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="codProfessor">
-											<option th:each="p : ${professores}" th:value="${p.cod}">
-												<span th:text="${p.nome}"></span>
-											</option>
-										</select>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<button type="submit">Teste</button>
-					</div>
-
 			</div>
+
+			<div th:if="${turmas != null}">
+				<table class="table table-dark">
+					<thead>
+						<tr>
+							<th scope="col">Cod</th>
+							<th scope="col">Horário de Início</th>
+							<th scope="col">Horário de Fim</th>
+							<th scope="col">Dia da Semana</th>
+							<th scope="col">Disciplina</th>
+							<th scope="col">Professor</th>
+							<th scope="col" colspan="2">Ações</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="turma : ${turmas}">
+							<td th:text="${turma.cod}"></td>
+							<td th:text="${turma.horarioInicio}"></td>
+							<td th:text="${turma.horarioFim}"></td>
+							<td th:text="${turma.diaDaSemana}"></td>
+							<td th:text="${turma.disciplina.nome}"></td>
+							<td th:text="${turma.professor.nome}"></td>
+							<td>
+								<a th:href="@{'/secretaria/grade/editar/turma/'+${turma.cod}}">Editar</a>
+							</td>
+							<td>
+								<a th:href="@{'/secretaria/grade/deletar/turma/'+${turma.cod}}">Remover</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<a th:href="@{'/secretaria/grade/adicionar/turma/'+${codGrade}}">Adicionar turma nova</a>
+			</div>
+
 		</div>
 	</div>
 </body>

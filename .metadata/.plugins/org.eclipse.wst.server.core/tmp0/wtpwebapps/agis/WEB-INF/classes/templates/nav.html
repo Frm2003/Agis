@@ -63,6 +63,16 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
 							aria-expanded="false">
+							Aluno
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" th:href="@{/secretaria/aluno}">Matricular Aluno</a></li>
+							<li><a class="dropdown-item" th:href="@{/secretaria/aluno/lista}">Lista de Alunos</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
 							Inserir
 						</a>
 						<ul class="dropdown-menu">
@@ -71,16 +81,6 @@
 									Disciplina</a></li>
 							<li><a class="dropdown-item" th:href="@{/secretaria/professor/lista}">Inserir Professor</a>
 							</li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-							aria-expanded="false">
-							Aluno
-						</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" th:href="@{/secretaria/aluno}">Matricular Aluno</a></li>
-							<li><a class="dropdown-item" th:href="@{/secretaria/aluno/lista}">Lista de Alunos</a></li>
 						</ul>
 					</li>
 					<li class="nav-item active">

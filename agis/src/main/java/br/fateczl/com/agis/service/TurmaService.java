@@ -24,6 +24,8 @@ public class TurmaService {
 		if (optional.isPresent()) {
 			Turma tNew = optional.get();
 			
+			tNew.setDisciplina(t.getDisciplina());
+			tNew.setProfessor(t.getProfessor());
 			tNew.setHorarioInicio(t.getHorarioInicio());
 			tNew.setHorarioFim(t.getHorarioFim());
 			tNew.setDiaDaSemana(t.getDiaDaSemana());
@@ -39,10 +41,10 @@ public class TurmaService {
 		return optional.get();
 	}
 	
-	public void remover(Long cod) throws Exception {
-		Turma t = buscar(cod);
+	public void remover(Turma t) throws Exception {
 		t.setDisciplina(null);
 		t.setProfessor(null);
+		t.setGrade(null);
 		atualizar(t);
 		trep.delete(t);
 	}

@@ -15,6 +15,6 @@ public class SecretariaGradeCurricularVizualizaController {
 	@GetMapping("secretaria/grade")
 	public String get(ModelMap model) {
 		model.addAttribute("grades", gcserv.listarTudo());
-		return "secretaria/crudGrade/vizualizaGrade";
+		return "secretaria/crudGrade/visualizaGrade";
 	}
 }
