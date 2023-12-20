@@ -55,49 +55,46 @@
 		<div class="row justify-content-center">
 			<div class="col-md-8">
 				<h2 class="text-center mb-4">Formulário Aluno</h2>
-				<form role="form" th:action="@{/secretaria/aluno/inserir}" method="post" th:object="${aluno}">
+				<form role="form" th:action="@{/secretaria/aluno/inserir}" method="post">
 					<div class="mb-3">
 						<label class="form-label">Nome</label>
-						<input type="text" class="form-control" name="nome" th:value="${aluno.nome}">
+						<input type="text" class="form-control" name="nome">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Data de Nascimento</label>
-						<input type="date" class="form-control" name="dataNasc"
-							th:value="${#dates.format(aluno.dataNasc, 'yyyy-MM-dd')}">
+						<input type="date" class="form-control" name="dataNasc">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Nome Social</label>
-						<input type="text" class="form-control" name="nomeSocial" th:value="${aluno.nomeSocial}">
+						<input type="text" class="form-control" name="nomeSocial">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Email Pessoal</label>
-						<input type="email" class="form-control" name="emailPessoal" th:value="${aluno.emailPessoal}">
+						<input type="email" class="form-control" name="emailPessoal">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Data de Conclusão do 2º Grau</label>
-						<input type="date" class="form-control" name="dataConc2grau"
-							th:value="${#dates.format(aluno.dataConc2grau, 'yyyy-MM-dd')}">
+						<input type="date" class="form-control" name="dataConc2grau">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">CPF</label>
-						<input type="text" class="form-control" name="cpf" th:value="${aluno.cpf}">
+						<input type="text" class="form-control" name="cpf">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Instituição de Conclusão do 2º Grau</label>
-						<input type="text" class="form-control" name="instConc2grau" th:value="${aluno.instConc2grau}">
+						<input type="text" class="form-control" name="instConc2grau">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Pontuação no Vestibular</label>
-						<input type="number" class="form-control" name="ptVestibular" th:value="${aluno.ptVestibular}">
+						<input type="number" class="form-control" name="ptVestibular">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Posição no Vestibular</label>
-						<input type="number" class="form-control" name="posVestibular"
-							th:value="${aluno.posVestibular}">
+						<input type="number" class="form-control" name="posVestibular">
 					</div>
 					<div class="mb-3">
 						<label class="form-label">Curso</label>
-						<select class="form-control" th:field="${aluno.curso}">
+						<select class="form-control" name="codCurso">
 							<option th:each="curso : ${cursos}" th:value="${curso.cod}" th:text="${curso.nome}"></option>
 						</select>
 					</div>

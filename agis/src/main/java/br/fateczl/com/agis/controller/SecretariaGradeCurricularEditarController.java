@@ -22,11 +22,7 @@ public class SecretariaGradeCurricularEditarController {
 	public String getGrde(@PathVariable("cod") Long cod, ModelMap model) {
 		GradeCurricular gc = gcserv.buscar(cod);
 		
-		model.addAttribute("codGrade", gc.getCod());
-		model.addAttribute("codCurso", gc.getCurso().getCod());
-		model.addAttribute("nomeCurso", gc.getCurso().getNome());
-		model.addAttribute("ano", gc.getAno());
-		model.addAttribute("semestre", gc.getSemestre());
+		model.addAttribute("grade", gc);
 		model.addAttribute("turmas", tserv.listarTurmasDaGrade(gc.getCod()));
 		
 		return "secretaria/crudGrade/editarGrade";

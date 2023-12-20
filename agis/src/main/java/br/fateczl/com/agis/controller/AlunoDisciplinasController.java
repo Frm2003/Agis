@@ -17,7 +17,7 @@ public class AlunoDisciplinasController {
 	private TurmaService tserv;	
 	
 	@GetMapping("/aluno/disciplinas")
-	public String get() throws Exception {
+	public String get() throws Exception {		
 		return "alunos/alunoDisciplinas";	
 	}
 	

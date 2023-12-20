@@ -1,0 +1,11 @@
+package br.fateczl.com.agis.service;
+
+import org.springframework.stereotype.Service;
+
+import br.fateczl.com.agis.repository.DatasRepository;
+
+@Service
+public class DatasService {
+	@Autowired
+	private DatasRepository
+}

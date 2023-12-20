@@ -1,0 +1,10 @@
+package br.fateczl.com.agis.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Table
+@Entity
+public class Usuario {
+
+}

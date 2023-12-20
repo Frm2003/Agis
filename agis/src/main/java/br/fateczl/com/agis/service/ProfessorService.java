@@ -18,22 +18,6 @@ public class ProfessorService {
 		prep.save(p);
 	}
 	
-	public void atualizar(Professor p) throws Exception {
-		Optional<Professor> optional = prep.findById(p.getCod());
-		
-		if (optional.isPresent()) {
-			Professor pNew = optional.get();
-			
-			pNew.setNome(p.getNome());
-			pNew.setTitulacao(p.getTitulacao());
-			pNew.setEmailPessoal(p.getEmailPessoal());
-			
-			prep.save(pNew);
-		} else {
-			throw new Exception("Não encontrado");
-		}
-	}
-	
 	public Professor buscar(Long cod) throws Exception {
 		Optional<Professor> optional = prep.findById(cod);
 		return optional.get();

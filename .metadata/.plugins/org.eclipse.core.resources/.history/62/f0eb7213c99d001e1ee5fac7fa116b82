@@ -1,0 +1,55 @@
+package br.fateczl.com.agis.controller;
+
+import java.time.LocalDate;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import br.fateczl.com.agis.model.Aluno;
+import br.fateczl.com.agis.service.AlunoService;
+import br.fateczl.com.agis.service.GenericService;
+
+@Controller
+public class SecretariaCrudAlunoController {
+	@Autowired
+	private AlunoService aserv;
+
+	@Autowired
+	private GenericService gserv;
+
+	@GetMapping("secretaria/aluno/matricula")
+	public String get() {
+		return "secretaria/crudAluno/alunoForm";
+	}
+
+	@PostMapping("")
+	public String post(@RequestParam Map<String, String> param) {
+		String nome = param.get("nome");
+		String dataNasc = param.get("dataNasc");
+		String nomeSocial = param.get("nomeSocial");
+		String emailPessoal = param.get("emailPessoal");
+		String dataConc2grau = param.get("dataConc2grau");
+		String cpf = param.get("cpf");
+		String instConc2grau = param.get("instConc2grau");
+		String ptVestibular = param.get("ptVestibular");
+		String posVestibular = param.get("posVestibular");
+		String codCurso = param.get("codCurso");
+
+		inserir(nome, LocalDate.parse(dataNasc), nomeSocial, emailPessoal, LocalDate.parse(dataConc2grau), cpf,
+				instConc2grau, Integer.parseInt(ptVestibular), Integer.parseInt(posVestibular),
+				Long.parseLong(codCurso));
+
+		return "redirect:/secretaria/aluno/matricula";
+	}
+
+	public void inserir(String nome, LocalDate dataNasc, String nomeSocial, String emailPessoal,
+			LocalDate dataConc2grau, String cpf, String instConc2grau, int ptVestibular, int posVestibular,
+			Long codCurso) {
+		Aluno a = new Aluno(cpf, nome, dataNasc, emailPessoal, gserv.geraEmail(nome), aserv.geraRa(), nomeSocial,
+				dataConc2grau, instConc2grau, ptVestibular, posVestibular);
+	}
+}

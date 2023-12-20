@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.fateczl.com.agis.model.Curso;
 import br.fateczl.com.agis.model.GradeCurricular;
 import br.fateczl.com.agis.model.Turma;
 import br.fateczl.com.agis.service.CursoService;
@@ -46,15 +45,11 @@ public class SecretariaGradeCurricularMontarController {
 	
 	@PostMapping("secretaria/grade/montar")
 	public String post(@RequestParam Map<String, String> param, ModelMap model) {
-		Long codCurso = Long.parseLong(param.get("codCurso"));
+		Long cod = Long.parseLong(param.get("codCurso"));
 		Calendar calendar = Calendar.getInstance();
 		
 		try {
-			Curso c = cserv.buscar(codCurso);
-			
-			model.addAttribute("codCurso", c.getCod());
-			model.addAttribute("nomeCurso", c.getNome());
-			
+			model.addAttribute("curso", cserv.buscar(cod));
 			model.addAttribute("ano", calendar.get(Calendar.YEAR));
 			model.addAttribute("semestre", gcserv.getSemestre());
 			
@@ -75,14 +70,9 @@ public class SecretariaGradeCurricularMontarController {
 		Long cod = Long.parseLong(param.get("codCurso"));
 		
 		try {
-			Curso c = cserv.buscar(cod);
-			
-			model.addFlashAttribute("codCurso", c.getCod());
-			model.addFlashAttribute("nomeCurso", c.getNome());
-			
+			model.addFlashAttribute("curso", cserv.buscar(cod));
 			model.addFlashAttribute("ano", calendar.get(Calendar.YEAR));
 			model.addFlashAttribute("semestre", gcserv.getSemestre());
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -98,11 +88,11 @@ public class SecretariaGradeCurricularMontarController {
 	
 	@PostMapping("/secretaria/montarGrade/addGrade")
 	public String postAddGrade(HttpServletRequest param, RedirectAttributes model) {
-		String codCurso = param.getParameter("codCurso");
+		Long codCurso = Long.parseLong(param.getParameter("codCurso"));
 		String ano = param.getParameter("ano");
 		String semestre = param.getParameter("semestre");
 		
-		GradeCurricular g = inserirGrade(Long.parseLong(codCurso), Integer.parseInt(ano), Integer.parseInt(semestre));
+		GradeCurricular g = inserirGrade(codCurso, Integer.parseInt(ano), Integer.parseInt(semestre));
 		
 		String[] codTurma = param.getParameterValues("codTurma");
 		String[] horarioInicio = param.getParameterValues("horarioInicio");
@@ -124,6 +114,11 @@ public class SecretariaGradeCurricularMontarController {
 		}
 		
 		model.addFlashAttribute("cursos", cserv.listarTudo());
+		try {
+			model.addFlashAttribute("curso", cserv.buscar(codCurso));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		return "redirect:/secretaria/grade/montar";
 	}

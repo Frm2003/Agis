@@ -1,0 +1,24 @@
+package br.fateczl.com.agis.model;
+
+import java.time.LocalDate;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data
+@Entity
+@Table
+@Inheritance(strategy = InheritanceType.JOINED)
+public class Usuario {
+	
+	@Column(nullable = false, length = 11)
+	private String cpf;
+	
+	@Column(columnDefinition = "DATE")
+	private LocalDate dataNasc;
+	
+}

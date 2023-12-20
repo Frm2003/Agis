@@ -66,8 +66,8 @@
 							Aluno
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" th:href="@{/secretaria/aluno}">Matricular Aluno</a></li>
-							<li><a class="dropdown-item" th:href="@{/secretaria/aluno/lista}">Lista de Alunos</a></li>
+							<li><a class="dropdown-item" th:href="@{/secretaria/aluno/matricula}">Matricular Aluno</a></li>
+							<li><a class="dropdown-item" th:href="@{/secretaria/aluno/lista-matriculas}">Lista de Alunos</a></li>
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
@@ -85,6 +85,9 @@
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" th:href="@{/secretaria/grade}">Montar a grade</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" th:href="@{/secretaria/data}">Caléndario Academico</a>
 					</li>
 				</ul>
 			</div>

@@ -30,9 +30,6 @@ public class MatriculaService {
          mNew.setAno(m.getAno());
          mNew.setSemestre(m.getSemestre());
          mNew.setSituacao(m.getSituacao());
-         mNew.setN1(m.getN1());
-         mNew.setN2(m.getN2());
-         mNew.setN3(m.getN3());
 
          mrep.save(mNew);
       } else {

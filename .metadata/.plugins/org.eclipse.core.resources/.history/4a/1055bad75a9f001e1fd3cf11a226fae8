@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src='main.js'></script>
+	<style>
+		body {
+			background-color: #343a40;
+			/* Cor de fundo escura */
+			color: #ffffff;
+			/* Cor do texto */
+		}
+
+		.container {
+			background-color: #454d55;
+			/* Cor de fundo do container */
+			padding: 20px;
+			border-radius: 8px;
+			/* Bordas arredondadas para o container */
+			margin-top: 50px;
+			/* Margem superior para o container */
+		}
+
+		.btn-primary {
+			background-color: #007bff;
+			/* Cor de fundo do botão primário */
+			border-color: #007bff;
+			/* Cor da borda do botão primário */
+		}
+
+		.btn-primary:hover {
+			background-color: #0056b3;
+			/* Cor de fundo do botão primário ao passar o mouse */
+			border-color: #0056b3;
+			/* Cor da borda do botão primário ao passar o mouse */
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<div th:replace="~{nav :: nav}"></div>
+	</nav>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-2">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+					Inserir nova data
+				</button>
+
+			</div>
+			<div class="col-md-10">
+				<div class="d-flex justify-content-center">
+					<h2>Tabela de Datas</h2>
+				</div>
+				<table class="table table-dark">
+					<thead>
+						<tr>
+							<th scope="col">Código</th>
+							<th scope="col">Data</th>
+							<th scope="col">Descrição</th>
+							<th scope="col">Feriado</th>
+							<th scope="col">Ano</th>
+							<th scope="col">Ações</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="data : ${datas}">
+							<td th:text="${data.cod}"></td>
+							<td th:text="${#dates.format(data.data, 'dd/MM/yyyy')}"></td>
+							<td th:text="${data.descricao}"></td>
+							<td th:text="${data.ehFeriado ? 'Sim' : 'Não'}"></td>
+							<td th:text="${data.ano}"></td>
+							<td>
+								<a href="#"></a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+<div class="modal fade modal-dialog modal-dialog-centered" id="exampleModal" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">s
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+				<!-- Modal -->
+	
+</body>
+
+</html>

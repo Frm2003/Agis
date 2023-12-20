@@ -1,0 +1,25 @@
+package br.fateczl.com.agis.model;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
+import jakarta.persistence.Table;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@AllArgsConstructo
+@Data
+@Entity
+@Table
+@Inheritance(strategy = InheritanceType.JOINED)
+@EqualsAndHashCode(callSuper = true)
+public class Professor extends Usuario{
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long cod;
+	
+	@Column(nullable = false, length = 50)
+	private String titulacao;
+}

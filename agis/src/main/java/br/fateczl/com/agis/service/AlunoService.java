@@ -19,28 +19,6 @@ public class AlunoService {
 		arep.save(a);
 	}
 	
-	public void atualizar(Aluno a) throws Exception {
-		Optional<Aluno> optional = arep.findById(a.getRa());
-		
-		if (optional.isPresent()) {
-			Aluno aNew = optional.get();
-			
-			aNew.setNome(a.getNome());
-			aNew.setDataNasc(a.getDataNasc());
-			aNew.setNomeSocial(a.getNomeSocial());
-			aNew.setEmailPessoal(a.getEmailPessoal());
-			aNew.setDataConc2grau(a.getDataConc2grau());
-			aNew.setCpf(a.getCpf());
-			aNew.setInstConc2grau(a.getInstConc2grau());
-			aNew.setPtVestibular(a.getPtVestibular());
-			aNew.setPosVestibular(a.getPosVestibular());
-			
-			arep.save(aNew);
-		} else {
-			throw new Exception("Não encontrado");
-		}
-	}
-	
 	public Aluno buscar(String ra) throws Exception {
 		Optional<Aluno> optional = arep.findById(ra);
 		return optional.get();
@@ -59,7 +37,7 @@ public class AlunoService {
 	}
 	
 	public LocalDate calculaDataLimite() {
-		return calculaDataLimite();
+		return arep.calculaDataLimite();
 	}
 	
 	public boolean validarIdade(LocalDate dataNasc) {

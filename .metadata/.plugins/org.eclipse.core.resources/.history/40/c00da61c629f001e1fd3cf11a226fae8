@@ -1,0 +1,20 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import br.fateczl.com.agis.service.DatasService;
+
+@Controller
+public class SecretariaCrudDataController {
+	@Autowired
+	private DatasService
+	
+	@GetMapping("/secretaria/data")
+	public String get(ModelMap model) {
+		model.addAttribute("datas", );
+		return "secretaria/crudDatas/dataCrud";
+	}
+	
+}

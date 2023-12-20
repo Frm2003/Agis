@@ -128,28 +128,31 @@ as
 
 --TRIGGERS
 create trigger matriculaSemestreUm
-on aluno
+on Aluno
 after insert
 as
 begin
-    insert into matricula(ano, semestre, n1, n2, n3, situacao, raAluno, codTurma)
+	declare @semestre int = 0
+	exec getSemestre @semestre output
+
+    insert into matricula(ano, semestre, situacao, raAluno, codTurma)
 	select 
 		cast(year(getdate()) as int) as ano,
         case when MONTH(getdate()) > 6 then '2' else '1' end as semestre,
-		0,
-		0,
-		0,
 		'cursando',
 		i.ra,
 		t.cod
 	from inserted i
 		inner join disciplina d on i.codCurso = d.codCurso
 		inner join turma t on t.codDisciplina = d.cod
-	where d.semestre = 1
+		inner join GradeCurricular gc on t.codGrade = gc.cod
+	where d.semestre = 1 
+		and year(i.dataMatricula) = gc.ano
+		and @semestre = gc.semestre 
 end
 
-enable trigger matriculaSemestreUm on aluno
-disable trigger matriculaSemestreUm on aluno
+enable trigger matriculaSemestreUm on Aluno
+disable trigger matriculaSemestreUm on Aluno
 
 create trigger deletaTurmaNull
 on turma

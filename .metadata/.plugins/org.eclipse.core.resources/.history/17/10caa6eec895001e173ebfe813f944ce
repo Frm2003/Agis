@@ -1,8 +1,0 @@
-package br.fateczl.com.agis.service;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class GenericServices {
-	
-}

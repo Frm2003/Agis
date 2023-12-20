@@ -1,0 +1,14 @@
+package br.fateczl.com.agis.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class SecretariaCrudDataController {
+	
+	@GetMapping("/secretaria/data")
+	public String get() {
+		return "secretaria/crudDatas/dataCrud";
+	}
+	
+}

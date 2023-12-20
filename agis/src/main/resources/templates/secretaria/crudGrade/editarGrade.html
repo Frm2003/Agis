@@ -58,12 +58,12 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-9">
-				<div th:if="${turmas != null}">
+				<div th:if="${turmas != null}" th:object="${grade}">
 					<h3 class="text-center d-flex justify-content-center">
 						<span style="padding: 0.5em;">Dados da grade: </span>
-						<span style="padding: 0.5em;" th:text="${nomeCurso}"></span>
-						<span style="padding: 0.5em;" th:text="${ano}"></span>
-						<span style="padding: 0.5em;" th:text="${semestre}"></span>
+						<span style="padding: 0.5em;" th:text="${grade.curso.nome}"></span>
+						<span style="padding: 0.5em;" th:text="${grade.ano}"></span>
+						<span style="padding: 0.5em;" th:text="${grade.semestre}"></span>
 					</h3>
 				</div>
 			</div>
@@ -98,7 +98,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<a th:href="@{'/secretaria/grade/adicionar/turma/'+${codGrade}}">Adicionar turma nova</a>
+				<a th:href="@{'/secretaria/grade/adicionar/turma/'+${grade.cod}}">Adicionar turma nova</a>
 			</div>
 
 		</div>

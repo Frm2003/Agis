@@ -47,7 +47,6 @@ public class SecretariaGradeCurricularTurmaController {
 	
 	@PostMapping("/secretaria/grade/adicionar/turma")
 	public String adicionar(@Valid Turma t) {
-		System.out.println(t.toString());
 		Long codGrade = t.getGrade().getCod();
 		tserv.inserir(t);
 		return "redirect:/secretaria/grade/visualizar/" + codGrade;
@@ -80,11 +79,7 @@ public class SecretariaGradeCurricularTurmaController {
 		
 		GradeCurricular gc = gcserv.buscar(t.getGrade().getCod());
 	
-		model.addAttribute("codGrade", gc.getCod());
-		model.addAttribute("codCurso", gc.getCurso().getCod());
-		model.addAttribute("nomeCurso", gc.getCurso().getNome());
-		model.addAttribute("ano", gc.getAno());
-		model.addAttribute("semestre", gc.getSemestre());
+		model.addAttribute("grade", gc);
 		model.addAttribute("turmas", tserv.listarTurmasDaGrade(gc.getCod()));
 		
 		return "redirect:/secretaria/grade/visualizar/" + gc.getCod();

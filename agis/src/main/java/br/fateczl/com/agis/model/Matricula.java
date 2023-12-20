@@ -1,7 +1,5 @@
 package br.fateczl.com.agis.model;
 
-import java.math.BigDecimal;
-
 import br.fateczl.com.agis.model.pk.MatriculaPk;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -42,13 +40,4 @@ public class Matricula {
 	
 	@Column(nullable = false, length = 30)
 	private String situacao;
-	
-	@Column(precision = 10, scale = 2)
-	private BigDecimal n1;
-	
-	@Column(precision = 10, scale = 2)
-	private BigDecimal n2;
-	
-	@Column(precision = 10, scale = 2)
-	private BigDecimal n3;
 }
