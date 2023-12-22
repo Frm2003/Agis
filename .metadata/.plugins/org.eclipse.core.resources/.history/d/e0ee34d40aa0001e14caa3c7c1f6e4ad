@@ -1,0 +1,23 @@
+package br.fateczl.com.agis.model;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import lombok.Data;
+
+@Data
+public class Usuario implements Serializable{
+	private static final long serialVersionUID = 1L;
+
+	protected String cpf;
+
+	protected String nome;
+
+	protected LocalDate dataNasc;
+
+	protected String emailPessoal;
+
+	protected String emailCorp;	
+
+	private String situacao;
+}

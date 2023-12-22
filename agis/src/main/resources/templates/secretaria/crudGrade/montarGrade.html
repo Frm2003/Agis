@@ -12,7 +12,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		crossorigin="anonymous"></script>
-	<script src='main.js'></script>
 	<style>
 		body {
 			background-color: #343a40;
@@ -56,7 +55,7 @@
 	</style>
 </head>
 
-<body>
+<body onload="load()">
 	<nav>
 		<div th:replace="~{nav :: nav}"></div>
 	</nav>
@@ -77,19 +76,76 @@
 				</form>
 
 				<div th:if="${turmas != null}">
-					<form role="form" th:action="@{/secretaria/montarGrade/addTurma}" method="post">
-						<h3>Dados da grade</h3>
-						<div class="d-flex justify-content-evenly" th:object="${curso}">
-							<input type="hidden" name="codCurso" th:value="${curso.cod}">
-							<input type="hidden" name="ano" th:value="${ano}">
-							<input type="hidden" name="semestre" th:value="${semestre}">
+					<h3>Dados da grade</h3>
+					<div class="d-flex justify-content-evenly" th:object="${curso}">
 
-							<p th:text="${curso.nome}"></p>
-							<p th:text="${ano}"></p>
-							<p th:text="${semestre}"></p>
-							<button type="submit" class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+						<p th:text="${curso.nome}"></p>
+						<p th:text="${ano}"></p>
+						<p th:text="${semestre}"></p>
+
+						<script>
+							function load() {
+
+								let btAdd = document.querySelector('#btAdd')
+								let btDel = document.querySelector('#btDel')
+
+								btDel.onclick = function () {
+									let qtdTr = document.querySelectorAll('.lines')
+									qtdTr[qtdTr.length - 1].remove()
+								}
+
+								btAdd.onclick = function () {
+									let qtdTr = document.querySelectorAll('.lines')
+
+									let tr = document.createElement('tr')
+									tr.setAttribute('class', 'lines')
+
+									const names = ['codProfessor', 'codDisciplina', 'diaDaSemana', 'horaFim', 'horaIni', '']
+									const diasDaSemana = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
+									const horarios = ['13:00', '14:50', '16:30', '18:20']
+
+									names.forEach((t, i) => {
+										let td = document.createElement('td')
+										if (i != 5) {
+											let select = document.body.appendChild(document.createElement('select'))
+											td.insertAdjacentElement("beforeend", select)
+
+											if (i >= 3 && i <= 4) {
+												horarios.forEach(h => {criaOptions(select, h)})
+											}
+
+											if (i == 2) {
+												diasDaSemana.forEach(d => {criaOptions(select, d)})
+											}
+
+											td.children[0].setAttribute('name', t)
+											td.children[0].setAttribute('class', 'form-control')
+										} else {
+											let span = document.createElement('span')
+											span.innerText = qtdTr.length + 1
+											td.insertAdjacentElement("beforeend", span)
+										}
+
+										tr.insertAdjacentElement('afterbegin', td)
+									})
+
+									document.querySelector('#tbody').insertAdjacentElement('beforeend', tr)
+								}
+							}
+
+							function criaOptions(element, text) {
+								let op = document.body.appendChild(document.createElement('option'))
+								op.text = text
+								op.value = text
+								element.appendChild(op)
+							} 
+						</script>
+
+						<div>
+							<button id="btAdd" class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+							<button id="btDel" class="btn btn-warning"><i class="fa-solid fa-minus"></i></button>
 						</div>
-					</form>
+					</div>
 				</div>
 
 				<form role="form" th:action="@{/secretaria/montarGrade/addGrade}" method="post">
@@ -110,47 +166,9 @@
 									<th scope="col">Professor</th>
 								</tr>
 							</thead>
-							<tbody>
-								<tr th:each="turma : ${turmas}">
-									<input type="hidden" name="codTurma" th:value="${turma.cod}">
-									<td th:text="${turma.cod}"></td>
-									<td>
-										<select class="form-control" name="horarioInicio">
-											<option>14:50</option>
-											<option>13:00</option>
-											<option>16:20</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="horarioFim">
-											<option>14:50</option>
-											<option>18:20</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="diaDaSemana">
-											<option>Segunda</option>
-											<option>Terça</option>
-											<option>Quarta</option>
-											<option>Quinta</option>
-											<option>Sexta</option>
-											<option>Sábado</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="codDisciplina">
-											<option th:each="d : ${disciplinas}" th:value="${d.cod}">
-												<span th:text="${d.nome}"></span>
-											</option>
-										</select>
-									</td>
-									<td>
-										<select class="form-control" name="codProfessor">
-											<option th:each="p : ${professores}" th:value="${p.cod}">
-												<span th:text="${p.nome}"></span>
-											</option>
-										</select>
-									</td>
+							<tbody id="tbody">
+								<tr>
+
 								</tr>
 							</tbody>
 						</table>

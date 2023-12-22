@@ -3,18 +3,18 @@ package br.fateczl.com.agis.model;
 import java.time.LocalDate;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Inheritance;
 import jakarta.persistence.InheritanceType;
-import jakarta.persistence.MappedSuperclass;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import jakarta.persistence.Table;
+import lombok.Data;
 
-@AllArgsConstructor
-@NoArgsConstructor
-@MappedSuperclass
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-public abstract class Usuario {
+@Data
+@Entity
+@Table
+@Inheritance(strategy = InheritanceType.JOINED)
+public class Usuario {
 	@Id
 	@Column(nullable = false, length = 11)
 	protected String cpf;

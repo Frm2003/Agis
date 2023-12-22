@@ -64,28 +64,6 @@ public class SecretariaGradeCurricularMontarController {
 		return "secretaria/crudGrade/montarGrade";
 	}
 	
-	@PostMapping("/secretaria/montarGrade/addTurma")
-	public String postAddTurma(@RequestParam Map<String, String> param, RedirectAttributes model) {
-		Calendar calendar = Calendar.getInstance();
-		Long cod = Long.parseLong(param.get("codCurso"));
-		
-		try {
-			model.addFlashAttribute("curso", cserv.buscar(cod));
-			model.addFlashAttribute("ano", calendar.get(Calendar.YEAR));
-			model.addFlashAttribute("semestre", gcserv.getSemestre());
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		inserirTurmaNull();
-		
-		model.addFlashAttribute("turmas", tserv.listarTurmasComNull());
-		model.addFlashAttribute("disciplinas", dserv.listarTudo());
-		model.addFlashAttribute("professores", pserv.listarTudo());
-		
-		return "redirect:/secretaria/grade/montar";
-	}
-	
 	@PostMapping("/secretaria/montarGrade/addGrade")
 	public String postAddGrade(HttpServletRequest param, RedirectAttributes model) {
 		Long codCurso = Long.parseLong(param.getParameter("codCurso"));
@@ -121,11 +99,6 @@ public class SecretariaGradeCurricularMontarController {
 		}
 		
 		return "redirect:/secretaria/grade/montar";
-	}
-	
-	private void inserirTurmaNull() {
-		Turma t = new Turma();
-		tserv.inserir(t);
 	}
 	
 	private GradeCurricular inserirGrade(Long codCurso, int ano, int semestre) {

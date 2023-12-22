@@ -14,6 +14,9 @@ select * from Matricula
 select * from turma
 select * from Professor
 
+insert into Professor values
+('11111111111', '2023-07-08', 'prof1@agis.com', 'prof1@gmail.com', 'prof 1', 'ativo', 1, 'mestre')
+
 select * from turma where codDisciplina is null
 select t.* from turma t inner join matricula m on t.cod = m.codTurma where m.raAluno = '202323804'
 select t.* from turma t left join matricula m on t.cod = m.codTurma and m.raAluno = '202323804'where m.raAluno is null

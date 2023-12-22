@@ -6,24 +6,21 @@ import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
+import jakarta.persistence.Id;
 import jakarta.persistence.Inheritance;
 import jakarta.persistence.InheritanceType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
-import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
 
 @Data
 @Entity
-@NoArgsConstructor
 @Table(name = "Aluno")
 @Inheritance(strategy = InheritanceType.JOINED)
-@EqualsAndHashCode(callSuper = true)
-public class Aluno extends Usuario {	
-
+public class Aluno {	
+	@Id
 	@Column(nullable = false, unique = true, length = 15)
 	private String ra;
 	
@@ -52,20 +49,7 @@ public class Aluno extends Usuario {
 	@JoinColumn(name = "codCurso")
 	private Curso curso;
 	
-	@Builder
-	public Aluno(String cpf, String nome, LocalDate dataNasc, String emailPessoal, String emailCorp, String ra,
-			String nomeSocial, LocalDate dataConc2grau, String instConc2grau, int ptVestibular, int posVestibular,
-			String situacao, LocalDate dataMatricula, LocalDate dataLimiteMatricula, Curso curso) {
-		super(cpf, nome, dataNasc, emailPessoal, emailCorp, situacao);
-		this.ra = ra;
-		this.nomeSocial = nomeSocial;
-		this.dataConc2grau = dataConc2grau;
-		this.instConc2grau = instConc2grau;
-		this.ptVestibular = ptVestibular;
-		this.posVestibular = posVestibular;
-		this.dataMatricula = dataMatricula;
-		this.dataLimiteMatricula = dataLimiteMatricula;
-		this.curso = curso;
-	}
-
+	@OneToOne(cascade = CascadeType.ALL, targetEntity = Usuario.class, fetch = FetchType.LAZY)
+	@JoinColumn(name = "cpf")
+	private Usuario usuario;
 }

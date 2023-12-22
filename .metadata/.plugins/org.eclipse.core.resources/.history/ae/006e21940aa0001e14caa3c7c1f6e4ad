@@ -1,0 +1,25 @@
+package br.fateczl.com.agis.model;
+
+import java.time.LocalDate;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+@Data
+public class Usuario {
+
+	protected String cpf;
+
+	protected String nome;
+
+	protected LocalDate dataNasc;
+
+	protected String emailPessoal;
+	
+	@Column(nullable = false, length = 30)
+	protected String emailCorp;	
+	
+	@Column(nullable = false, length = 100)
+	private String situacao;
+}

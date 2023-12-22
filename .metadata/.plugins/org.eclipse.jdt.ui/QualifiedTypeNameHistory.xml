@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="br.fateczl.com.agis.model.pk.ChamadaPk"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
-    <fullyQualifiedTypeName name="br.fateczl.com.agis.model.pk.PlanejamentoPk"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="jakarta.persistence.IdClass"/>
     <fullyQualifiedTypeName name="br.fateczl.com.agis.model.Solicitacoes"/>
     <fullyQualifiedTypeName name="br.fateczl.com.agis.model.pk.SolicitacoesPk"/>
@@ -46,12 +42,10 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="br.fateczl.com.agis.service.GenericServices"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Inheritance"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="br.fateczl.com.agis.repository.DatasRepository"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="br.fateczl.com.agis.service.DatasService"/>
     <fullyQualifiedTypeName name="br.fateczl.com.agis.controller.SecretariaCrudDataController"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.DiscriminatorColumn"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.DiscriminatorValue"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
 </qualifiedTypeNameHistroy>

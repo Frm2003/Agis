@@ -63,18 +63,7 @@ public class SecretariaCrudAlunoController {
 		String ra = aserv.geraRa();
 		LocalDate hoje = LocalDate.now();
 		LocalDate dataLimite = aserv.calculaDataLimite();
-		Curso c = null;
 		
-		try {
-			c = cserv.buscar(codCurso);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 		
-		Aluno a = new Aluno(cpf, nome, dataNasc, emailPessoal, emailCorp, ra, nomeSocial, dataConc2grau, instConc2grau, ptVestibular, posVestibular, "ativo", hoje, dataLimite, c);
-		
-		if (aserv.validarCPF(cpf) && aserv.validarIdade(dataNasc)) {
-			aserv.inserir(a);
-		}
 	}
 }

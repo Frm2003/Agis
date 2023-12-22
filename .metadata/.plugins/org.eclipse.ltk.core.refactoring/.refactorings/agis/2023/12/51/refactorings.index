@@ -2,3 +2,7 @@
 1703020859930	Move 'dataCrud.html' to 'secretaria'
 1703095244146	Move 'dataCrud.html' to 'crudDatas'
 1703095550333	Rename resource 'navSecretaria.html'
+1703168849415	Delete element
+1703169020061	Move 'scripts' to 'templates'
+1703169093868	Move 'scripts' to 'static'
+1703169139723	Delete element
